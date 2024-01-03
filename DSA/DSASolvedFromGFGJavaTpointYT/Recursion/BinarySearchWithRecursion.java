@@ -11,7 +11,7 @@ public class BinarySearchWithRecursion {
 		 return -1;
 	 }
 	 
-	 int m= s+(e-s) / 2;
+	 int m= s + (e-s) / 2;
 	 if(arr[m]  == target) {
 		 return m;
 	 }
@@ -25,21 +25,6 @@ public class BinarySearchWithRecursion {
 	 if(target >= arr[m] && target <= arr[e]) {
 		 return search(arr, target, m+1, e);
 	 } 
-		 return search(arr, target,s, m-1);
-	 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
+		 return search(arr, target,s, m-1);	 
  }
 }

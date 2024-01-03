@@ -1,4 +1,4 @@
-package Recursion;
+package leetcode;
 
 public class ReverseNumberWithRecurssion {
 	
